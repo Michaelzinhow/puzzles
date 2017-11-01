@@ -1,0 +1,101 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-camera {
+    width: 70px;
+    height: 52px;
+    background-position: -5px -5px;
+}
+
+.sprite-camera-hover {
+    width: 70px;
+    height: 52px;
+    background-position: -5px -67px;
+}
+
+.sprite-card {
+    width: 73px;
+    height: 50px;
+    background-position: -5px -129px;
+}
+
+.sprite-card_hover {
+    width: 73px;
+    height: 50px;
+    background-position: -5px -189px;
+}
+
+.sprite-code {
+    width: 73px;
+    height: 50px;
+    background-position: -5px -249px;
+}
+
+.sprite-code_hover {
+    width: 73px;
+    height: 50px;
+    background-position: -5px -309px;
+}
+
+.sprite-config {
+    width: 70px;
+    height: 70px;
+    background-position: -5px -369px;
+}
+
+.sprite-config-hover {
+    width: 70px;
+    height: 70px;
+    background-position: -5px -449px;
+}
+
+.sprite-folder {
+    width: 73px;
+    height: 73px;
+    background-position: -5px -529px;
+}
+
+.sprite-folder_hover {
+    width: 73px;
+    height: 73px;
+    background-position: -5px -612px;
+}
+
+.sprite-lamp {
+    width: 50px;
+    height: 73px;
+    background-position: -5px -695px;
+}
+
+.sprite-lamp_hover {
+    width: 50px;
+    height: 73px;
+    background-position: -5px -778px;
+}
+
+.sprite-panfleto {
+    width: 65px;
+    height: 73px;
+    background-position: -5px -861px;
+}
+
+.sprite-panfleto_hover {
+    width: 65px;
+    height: 73px;
+    background-position: -5px -944px;
+}
+
+.sprite-refresh {
+    width: 73px;
+    height: 73px;
+    background-position: -5px -1027px;
+}
+
+.sprite-refresh_hover {
+    width: 73px;
+    height: 73px;
+    background-position: -5px -1110px;
+}
