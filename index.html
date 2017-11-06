@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Puzzles Web - A peça que fatava me sua empresa.</title>
     
@@ -16,16 +17,53 @@
            <div class="logo-container">
               <div class="logo-container__logo">
                    <a href="index.html">
-                       <img src="images/logo.png" class="img-responsive" alt="Logo Puzzles Web" title="Logo Puzzles Web">
+                       <img src="images/logo.png" class="img-responsive" alt="Puzzles Web" title="Puzzles Web">
                    </a>
               </div><!-- Fim da class logo-container__logo -->
            </div><!-- Fim da class logo-container -->
            <div class="search-container">
                <form action="">
-                   <input type="text" class="form-control" placeholder="Faça sua pesquisa aqui...">
+                   <input type="text" class="form-control search-container__input" placeholder="Faça sua pesquisa aqui...">
                </form>
            </div><!-- Fim da class search-container -->
        </div><!-- Fim da class content -->
    </header>
+   
+   <!-- Barra de navegação -->
+   <div id="navegacao">
+       <div class="container">
+           <div id="navegacao__content">
+               <nav class="navbar navbar-default">
+                  <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Início <i class="fa fa-home"></i></a></li>
+                        <li><a href="#">Serviços <i class="fa fa-wrench"></i></a></li>
+                        <li><a href="#">Portfólio <i class="fa fa-paperclip"></i></a></li>
+                        <li><a href="#">Sobre Nós <i class="fa fa-eye"></i></a></li>
+                        <li><a href="#">Contato <i class="fa fa-envelope"></i></a></li>            
+                      </ul>          
+                    </div><!-- /.navbar-collapse -->
+                  </div><!-- /.container-fluid -->
+                </nav>
+           </div><!-- Fim da div navegacao__content -->
+       </div><!-- Fim da class container -->
+   </div><!-- Fim da div navegacao -->
+   <!-- Fim da barra de navegação -->
+   
+   <!-- Js -->
+   <script src="js/jquery/jquery-3.2.1.min.js"></script>
+   <script src="js/bootstrap/bootstrap.min.js"></script>
 </body>
 </html>

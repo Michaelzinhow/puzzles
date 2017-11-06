@@ -7,16 +7,51 @@ body
                                 +make-md-column(3)
                                 > .logo-container__logo
                                         +make-md-column(10)
+                                        +make-xs-column(8)
+                                        +make-xs-column-offset(2)
                         > .search-container
                                 +make-md-column(4)
                                 +make-md-column-offset(5)
-                input.form-control
-                        height: 38px
-                        font: 13px $font_main
-                        font-style: italic
-                        color: #999
-                        margin-top: 7px
-                        border: 1px solid $cinza-claro
-                        border-radius: 4px          
+                                input.search-container__input .form-control
+                                        height: 38px
+                                        font: 13px $font_main
+                                        font-style: italic
+                                        color: #999
+                                        margin-top: 7px
+                                        border: 1px solid $cinza-claro
+                                        border-radius: 4px
+                            
+                            
+                            
+                            
+        > #navegacao
+                +gradient(90deg, $verde, $azul)
+                > .container
+                        > #navegacao__content
+                                +make-md-column(12)
+                                .navbar
+                                        border-radius: 0
+                                        box-shadow: none
+                                        border: none
+                                        +gradient(90deg, $verde, $azul)
+                                        margin-bottom: 0
+                                        .navbar-collapse
+                                                border: none
+                                                > ul.navbar-nav
+                                                        > li
+                                                                &.active
+                                                                        > a
+                                                                                background: $active
+                                            
+                                                                a
+                                                                        color: $branco
+                                                                        font: bold 15px $font_main
+                                                                        &:hover
+                                                                                background: $active
+                                                                        
+                                                
+            
+                           
+                        
                         
             
