@@ -4,19 +4,27 @@ body
                 > .content
                         +make-row
                         > .logo-container
+                                +make-xs-column(12)
+                                +make-sm-column(4)
                                 +make-md-column(3)
+                                
+                                
                                 > .logo-container__logo
-                                        +make-md-column(10)
-                                        +make-xs-column(8)
-                                        +make-xs-column-offset(2)
+                                        width: 80%
+                                        margin-left: 20%
                         > .search-container
+                                +make-xs-column(12)
+                                +make-sm-column(4)
                                 +make-md-column(4)
+                                
+                                +make-xs-column-offset(0)
+                                +make-sm-column-offset(4)
                                 +make-md-column-offset(5)
-                                input.search-container__input .form-control
-                                        height: 38px
-                                        font: 13px $font_main
-                                        font-style: italic
+                        
+                                input.search-container__input.form-control
+                                        height: 38px                                       
                                         color: #999
+                                        font: italic 13px $font_main
                                         margin-top: 7px
                                         border: 1px solid $cinza-claro
                                         border-radius: 4px
